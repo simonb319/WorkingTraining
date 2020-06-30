@@ -1,0 +1,37 @@
+/*********************************TAG SELECTORS********************************/
+body {
+  margin: 0;
+}
+
+h1 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+/********************************Class Selectors*******************************/
+.top {
+  background-color: powderblue;
+
+}
+
+.middle {
+  background-color: red;
+  border: solid 20px;
+  width: 200px;
+  height: 200px;
+  margin-left: 240px;
+}
+
+.bottom {
+  background-color: blue;
+  border: solid 10px;
+  width: 200px;
+  height: 200px;
+  margin-left: 480px;
+}
+
+
+/********************************ID Selectors**********************************/
