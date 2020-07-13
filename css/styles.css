@@ -1,37 +1,45 @@
-/*********************************TAG SELECTORS********************************/
 body {
-  margin: 0;
+  background-color: paleturquoise;
+  text-align: center;
 }
 
+.TopDiv {
+  background-color: #7fffd4;
+}
+
+.MiddleDiv {
+  background-color: #ff7f50;
+  height: 200px;
+  width: 200px;
+  border: solid 5px;
+}
+
+.BottomDiv {
+  background-color: #1e90ff;
+  height: 200px;
+  width: 200px;
+  border: solid 5px;
+/*  position: relative;
+  left: 210px;
+  bottom: 210px;*/
+}
+
+.SpanOne{
+  font-weight:bold;
+}
 h1 {
-  margin: 0;
+  font-family: 'Pinyon Script', cursive;
+}
+.CloudOne{
+    position: relative;; /* Will Moue Relative To Where It Is Now */
+    top: 20px;
+    left: 210px;
 }
 
-p {
-  margin: 0;
+.CloudTwo{
+    position: absolute;
 }
 
-/********************************Class Selectors*******************************/
-.top {
-  background-color: powderblue;
-
+.MountainOne{
+    position: relative;
 }
-
-.middle {
-  background-color: red;
-  border: solid 20px;
-  width: 200px;
-  height: 200px;
-  margin-left: 240px;
-}
-
-.bottom {
-  background-color: blue;
-  border: solid 10px;
-  width: 200px;
-  height: 200px;
-  margin-left: 480px;
-}
-
-
-/********************************ID Selectors**********************************/
