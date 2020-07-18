@@ -1,10 +1,10 @@
 body {
-  background-color: #7fffd4;
+  /*background-color: #7fffd4;*/
   text-align: center;
 }
 
 .TopDiv {
-  background-color: #7fffd4;
+  background-color: #EAF6F6;
   text-align: center;
 }
 
@@ -16,7 +16,7 @@ body {
 }
 
 .BottomDiv {
-  background-color: #1e90ff;
+  background-color: #66BFBF;
   height: 200px;
   width: 200px;
   border: solid 5px;
@@ -24,16 +24,21 @@ body {
   left: 210px;
   bottom: 210px;*/
 }
-
+.contact-me{
+  background-color: #66BFBF;
+}
 .SpanOne{
   font-weight:bold;
 }
 h1 {
   font-family: 'Pinyon Script', cursive;
   font-size: 4.0rem;
+  color:  #00bfff;
+  margin: 20px auto 0 auto;
 }
 h2{
   font-size: 2.5rem;
+  color:  #00008b;
 }
 .CloudOne{
     position: relative;
@@ -50,4 +55,31 @@ h2{
 .MountainOne{
     position: relative;
     right: 50px;
+}
+.ParOne{
+    font-weight: mormal;
+}
+.skill-row{
+    width: 50%;
+    line-height: 1;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+.KayakOne{
+  float: left;
+}
+.KayakTwo{
+  float: right;
+}
+.footer-link{
+  text-decoration: none;
+  margin-right: 100px;
+  color: #11999E;
+}
+.LineBreak{
+border: #f5deb3 dotted;
+border-width: 5px 0px 0px 0px;
+height: 1px;
+width: 15%;
+margin: auto;
 }
